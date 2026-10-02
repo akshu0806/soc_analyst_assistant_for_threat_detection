@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated datasets
+dataset/
+*.parquet
+*.csv
+
+# Trained model artifacts
+*.pkl
+*.joblib
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE and OS
+.vscode/
+.DS_Store
+Thumbs.db
